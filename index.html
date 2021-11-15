@@ -34,12 +34,13 @@
         }
         .btn-outline-danger:hover{
             background: #FF5B79;
-
         }
         .main{
             padding-top: 20vh;
+            padding-bottom:30vh ;
             background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
-            box-shadow: 22.0639px 20.3667px 76.375px rgba(31, 26, 51, 0.13);
+            box-shadow: 10px 10px 20px rgba(31, 26, 51, 0.13);
+            border-radius: 0 0 80px 80px;
         }
         .main .img1{
             width: 80%;
@@ -69,7 +70,6 @@
         .main .book-now {
             background: none;
             border: 0px ;
-        
         }
         .main .book-now:active {  
             border: 0px;
@@ -81,8 +81,44 @@
         .main .ourServicesBtn{
             margin-top: -10vh;
         }
-        
+        .header h2{
+            font-family: 'Poppins';
+            font-size: 4em;
+            margin-top: 20vh;
+            color: #ffffff;
+        }
+        .header span{
+            color: #FF5B79;
+            border-bottom: 5px solid #FF5B79;
+        }
+        .header p{
+            font-size: 2em;
+            color: #bebebe;
+        }
+        .services .service{
+            background: #FFFFFF;
+            color: #FF5B79;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 26px;
+            font-family: 'Poppins';
+        }
+        .services .services-1{
+            margin-top: -20vh;
+            margin-bottom: 10vh;
+        }
+        .service img{
+            width: 150px;
+        }
+        .main2{
+            padding-top: 20vh;
+            padding-bottom:30vh ;
+            background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
+            box-shadow: -10px -10px 20px rgba(31, 26, 51, 0.43);
+            border-radius: 80px 80px 0px 0px;
+            margin-top: -20vh;
+        }
         @media only screen and (max-width: 760px) {
+
             .navbarMobile{
                 display: block;
                 position: absolute;
@@ -118,6 +154,13 @@
                 margin-left: 10%;
                 margin-top: 0vh;
             }
+            .header h2{
+                font-size: 2.8em;
+            }
+            .header p{
+                font-size: 1.2em;
+            }
+
         }
 
     </style>
@@ -129,7 +172,7 @@
             
             <div class="d-flex align-items-center">
                 <div class="">
-                    <img src="Logo.png" height="20px" alt="">
+                    <img src="./images/Logo.png" height="20px" alt="">
                 </div>
                 <div class="ml-auto mr-5">
                     <span class="active">
@@ -164,18 +207,19 @@
 
         </div>
     </div>
+
     <div class="contaier navbarMobile mt-3 pl-3">
         <div class="row">
 
             <div class="">
                 <span>
-                    <img src="./Logo.png" width="100%" alt="">
+                    <img src="./images/Logo.png" width="100%" alt="">
                 </span>
             </div>
         
         </div>
-
     </div>
+
     <div class="container-fluid main">
         <div class="col-md-10 offset-md-1">
 
@@ -197,26 +241,26 @@
                     <div class="row">
 
                         <button class="btn book-now d-flex align-items-center"> 
-                            <img src="./book-now.png" alt="">
+                            <img src="./images/book-now.png" alt="">
                         </button>
                         <button class="btn book-now d-flex align-items-center text-white ml-auto mr-5"> 
                              Inquiry Now &nbsp; &nbsp;
-                            <img src="./arrow.png" alt="">
+                            <img src="./images/arrow.png" alt="">
                         </button>
                     
                     </div>
                     
                 </div>
                 <div class="col-md-6">
-                    <img src="./img1.png" class="img1" alt="">
-                    <img src="./img2.png" class="img2" alt="">
-                    <img src="./safe.png" class="img3" alt="">
+                    <img src="./images/img1.png" class="img1" alt="">
+                    <img src="./images/img2.png" class="img2" alt="">
+                    <img src="./images/safe.png" class="img3" alt="">
                 </div>
             </div>
             <div class="d-flex justify-content-center col-12 ourServicesBtn">
 
                 <button class="btn book-now d-flex align-items-center"> 
-                    <img src="./ourServices.png" alt="">
+                    <img src="./images/ourServices.png" alt="">
                 </button>
 
             </div>
@@ -225,13 +269,91 @@
         <div class="col-md-1"></div>
 
         <div class="col-md-12">
-            <div class="header">
+            <div class="header text-center">
                 <h2>
                     OUR <span>SERVICES</span> 
                 </h2>
-                <p class="col-md-6 offset-md-3">
-
+                <p class="col-md-8 offset-md-2 h3 mt-4">
+                    Make Wonders For Your Business with 
+                    <br>
+                    DAKSH LOGISTICS & Rely on Our Following Services
                 </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid services">
+        <div class="row services-1">
+            
+                <div class="col-md-4 col-10 offset-1 offset-md-2 p-4">
+                    <div class="col-md-10 offset-md-1 pt-4 pb-4 text-center service">
+                        <img src="./images/service (5).png" alt="">
+                        <h4>
+                            Inbound & 
+                            <br>
+                            Outbound Services
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 offset-md-0 offset-1 p-4">
+                    <div class="col-md-10 offset-md-1 pt-4 pb-4 text-center service">
+                        <img src="./images/service (4).png" alt="">
+                        <h4>
+                            National 
+                            <br>
+                            Transportation  Services
+                        </h4>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-10 offset-md-0 offset-1 p-4">
+                <div class="col-md-10 offset-md-1 pt-4 pb-4 text-center service">
+                    <img src="./images/service (3).png" alt="">
+                    <h4>
+                        Tempo Truck
+                        <br>
+                        ( Pick Ups )
+                    </h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 offset-md-0 offset-1 p-4">
+                <div class="col-md-10 offset-md-1 pt-4 pb-4 text-center service">
+                    <img src="./images/service (2).png" alt="">
+                    <h4>
+                        Bike 
+                        <br> 
+                        Transportation
+                    </h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 offset-md-0 offset-1 p-4">
+                <div class="col-md-10 offset-md-1 pt-4 pb-4 text-center service">
+                    <img src="./images/service (2).png" alt="">
+                    <h4>
+                        In-Town
+                        <br>
+                        Transportation
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid main2">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="header text-center">
+                    <h2>
+                         <span>TESTIMONIALS</span> 
+                    </h2>
+                    <p class="col-md-8 offset-md-2 h3 mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, nulla repellendus vel facere deleniti tempore dolores dolor unde libero!
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
