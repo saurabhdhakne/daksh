@@ -19,6 +19,7 @@
             margin: 0;
             padding: 0;
             font-family: 'Kanit';
+            background: #FF5B79;
         }
         .navbarMobile{
             display: none;
@@ -97,10 +98,20 @@
         }
         .services .service{
             background: #FFFFFF;
+            -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
+            -moz-box-shadow:inset 0px 0px 0px 10px #f00;
             color: #FF5B79;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-            border-radius: 26px;
+            border-radius: 10px;
             font-family: 'Poppins';
+            box-sizing: border-box;
+            transition: .5s all;
+        }
+        .services .service:hover{
+            background: #000000;
+            transition: .5s all;
+            cursor: pointer;
+            box-shadow:  inset 5px 5px  #FF5B79, inset -5px -5px  #FF5B79;
         }
         .services .services-1{
             margin-top: -20vh;
@@ -116,6 +127,37 @@
             box-shadow: -10px -10px 20px rgba(31, 26, 51, 0.43);
             border-radius: 80px 80px 0px 0px;
             margin-top: -20vh;
+        }
+        .testimonials{
+            /* margin-top: 20vh; */
+            padding-top: 20vh;
+            overflow-x: scroll; 
+        }
+        .testimonials::-webkit-scrollbar{
+            height: 0px;
+        }
+        .testimonials .testimonial img{
+            margin-top: -70px;
+            width: 140px;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+        }
+        .testimonials .testimonial{
+            border-radius: 5px;
+            background: #ffffff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.65); 
+            transition:.5s all  ;
+            margin-bottom: 130px;
+        }
+        .testimonials .testimonial:hover{
+            color: #ffffff;
+            background: #000000;
+            transition:.5s all;
+            cursor: pointer;
+        }
+        .testimonials .testimonial b{
+            border-bottom: 3px solid #FF5B79;
         }
         @media only screen and (max-width: 760px) {
 
@@ -159,6 +201,12 @@
             }
             .header p{
                 font-size: 1.2em;
+            }
+            .main2 .container{
+                margin-right: 0;
+                padding-right: 0;
+                margin-left: 0;
+                padding-left: 0;
             }
 
         }
@@ -330,7 +378,7 @@
             </div>
             <div class="col-md-4 col-10 offset-md-0 offset-1 p-4">
                 <div class="col-md-10 offset-md-1 pt-4 pb-4 text-center service">
-                    <img src="./images/service (2).png" alt="">
+                    <img src="./images/service (1).png" alt="">
                     <h4>
                         In-Town
                         <br>
@@ -343,15 +391,54 @@
     
     <div class="container-fluid main2">
         <div class="row">
-            <div class="col-md-12">
+            <div class="container">
 
                 <div class="header text-center">
                     <h2>
                          <span>TESTIMONIALS</span> 
                     </h2>
-                    <p class="col-md-8 offset-md-2 h3 mt-4">
+                    <p class="h3 mt-4">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, nulla repellendus vel facere deleniti tempore dolores dolor unde libero!
                     </p>
+                </div>
+
+                <div class="d-flex testimonials">
+                    <div class="col-md-4 col-11 text-center">
+                        <div class="col-md-12 offset-md-0 col-12 testimonial p-2 pb-2 pl-0">
+
+                            <img src="./images/testimonials/img (1).jpg"  alt="">
+                            <p class="p-4">
+                                <b class="h3"> Saurabh Dhakne </b>
+                                <br> <br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-11 text-center">
+                        <div class="col-md-12 offset-md-0 col-12 testimonial p-2 pb-2 pl-0">
+
+                            <img src="./images/testimonials/img (2).jpg" alt="">
+                            <p class="p-4">
+                                <b class="h3"> Prathamesh Kapse </b>
+                                <br> <br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-11 text-center">
+                        <div class="col-md-12 offset-md-0 col-12 testimonial p-2 pb-2 pl-0">
+
+                            <img src="./images/testimonials/img (1).jpg" alt="">
+                            <p class="p-4">
+                                <b class="h3"> Rohan Keshave </b>
+                                <br> <br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
