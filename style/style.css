@@ -16,6 +16,12 @@ body {
   position: absolute;
   color: #ff5b79;
 }
+.scroll-x {
+  overflow-y: scroll;
+}
+.scroll-x::-webkit-scrollbar {
+  height: 0;
+}
 .btn-outline-danger {
   border-radius: 30px;
   color: #ff5b79;
@@ -47,6 +53,7 @@ body {
   margin-left: 30%;
   margin-top: -30vh;
 }
+
 .main .data h4 {
   color: #ff5b79;
   font-weight: bolder;
@@ -74,6 +81,20 @@ body {
 .main .ourServicesBtn {
   margin-top: -10vh;
 }
+
+.main .phrases {
+  min-height: 50vh;
+  align-items: center;
+}
+.main .block {
+  background: #ffc0cb38;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  font-weight: bolder;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .header h2 {
   font-family: "Poppins";
   font-size: 4em;
