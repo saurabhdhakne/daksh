@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit";
+  background: #ff5b79;
+}
+.navbarMobile {
+  display: none;
+}
+.navbar {
+  position: absolute;
+  color: #ff5b79;
+}
+.btn-outline-danger {
+  border-radius: 30px;
+  color: #ff5b79;
+  border: 1px solid #ff5b79;
+}
+.btn-outline-danger:hover {
+  background: #ff5b79;
+}
+.main {
+  padding-top: 20vh;
+  padding-bottom: 30vh;
+  background: linear-gradient(
+    136.16deg,
+    rgba(46, 9, 22, 0.97) 12.91%,
+    rgba(32, 10, 43, 0.69) 87.68%
+  );
+  box-shadow: 10px 10px 20px rgba(31, 26, 51, 0.13);
+  border-radius: 0 0 80px 80px;
+}
+.main .img1 {
+  width: 80%;
+}
+.main .img2 {
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -30vh;
+}
+.main .img2 {
+  margin-left: 30%;
+  margin-top: -30vh;
+}
+.main .data h4 {
+  color: #ff5b79;
+  font-weight: bolder;
+  margin-top: 5vh;
+}
+.main .data h1 {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 5em;
+}
+.main .data p {
+  color: #bebebe;
+}
+.main .book-now {
+  background: none;
+  border: 0px;
+}
+.main .book-now:active {
+  border: 0px;
+}
+.main .book-now:hover {
+  border: 0px;
+  opacity: 0.9;
+}
+.main .ourServicesBtn {
+  margin-top: -10vh;
+}
+.header h2 {
+  font-family: "Poppins";
+  font-size: 4em;
+  margin-top: 20vh;
+  color: #ffffff;
+}
+.header span {
+  color: #ff5b79;
+  border-bottom: 5px solid #ff5b79;
+}
+.header p {
+  font-size: 2em;
+  color: #bebebe;
+}
+.services .service {
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 0px 10px #f00;
+  -moz-box-shadow: inset 0px 0px 0px 10px #f00;
+  color: #ff5b79;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  transition: 0.5s all;
+}
+.services .service:hover {
+  background: #000000;
+  transition: 0.5s all;
+  cursor: pointer;
+  box-shadow: inset 5px 5px #ff5b79, inset -5px -5px #ff5b79;
+}
+.services .services-1 {
+  margin-top: -20vh;
+  margin-bottom: 10vh;
+}
+.service img {
+  width: 150px;
+}
+.main2 {
+  padding-top: 20vh;
+  padding-bottom: 0vh;
+  background: linear-gradient(
+    136.16deg,
+    rgba(46, 9, 22, 0.97) 12.91%,
+    rgba(32, 10, 43, 0.69) 87.68%
+  );
+  box-shadow: -10px -10px 20px rgba(31, 26, 51, 0.43);
+  border-radius: 80px 80px 0px 0px;
+  margin-top: -20vh;
+}
+.testimonials {
+  /* margin-top: 20vh; */
+  padding-top: 20vh;
+  overflow-x: scroll;
+}
+.testimonials::-webkit-scrollbar {
+  height: 0px;
+}
+.testimonials .testimonial img {
+  margin-top: -70px;
+  width: 140px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.testimonials .testimonial {
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.65);
+  transition: 0.5s all;
+}
+.testimonials .testimonial:hover {
+  color: #ffffff;
+  background: #000000;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.testimonials .testimonial b {
+  border-bottom: 3px solid #ff5b79;
+}
+.footer {
+  margin-top: 10vh;
+  border-radius: 80px 80px 0px 0px;
+  background: #000000;
+  padding: 15vh 5% 0vh 5%;
+  box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.43);
+}
+.footer h2 {
+  color: #ff5b79;
+  border-bottom: 3px solid #ff5b79;
+  padding: 0;
+}
+.footer .item,
+.footer p {
+  color: #bebebe;
+}
+.footer .item:hover,
+.footer p:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+@media only screen and (max-width: 760px) {
+  .navbarMobile {
+    display: block;
+    position: absolute;
+    color: #ff5b79;
+  }
+  .navbar {
+    display: none;
+  }
+  .main {
+    padding-top: 10vh;
+  }
+  .main .data h4 {
+    font-size: 1em;
+  }
+  .main .data h1 {
+    font-size: 3.5em;
+  }
+  .main .data p {
+    font-size: 0.8em;
+  }
+  .main .ourServicesBtn {
+    margin-top: 2vh;
+  }
+  .main .img1 {
+    width: 70%;
+  }
+  .main .img2 {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: -20vh;
+  }
+  .main .img3 {
+    margin-left: 10%;
+    margin-top: 0vh;
+  }
+  .header h2 {
+    font-size: 2.8em;
+  }
+  .header p {
+    font-size: 1.2em;
+  }
+  .main2 .container {
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .testimonials .testimonial {
+    margin-bottom: 130px;
+  }
+}

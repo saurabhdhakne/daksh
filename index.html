@@ -7,211 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/db006bf474.js"></script>
 
     <title>Daksh Logistics</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-        body{
-            margin: 0;
-            padding: 0;
-            font-family: 'Kanit';
-            background: #FF5B79;
-        }
-        .navbarMobile{
-            display: none;
-        }
-        .navbar{
-            position: absolute;
-            color: #FF5B79;
-        }
-        .btn-outline-danger{
-            border-radius: 30px;
-            color: #FF5B79;
-            border: 1px solid #FF5B79;
-        }
-        .btn-outline-danger:hover{
-            background: #FF5B79;
-        }
-        .main{
-            padding-top: 20vh;
-            padding-bottom:30vh ;
-            background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
-            box-shadow: 10px 10px 20px rgba(31, 26, 51, 0.13);
-            border-radius: 0 0 80px 80px;
-        }
-        .main .img1{
-            width: 80%;
-        }
-        .main .img2{
-            width: 50%;
-            margin-left: 50%;
-            margin-top: -30vh;
-        }
-        .main .img2{
-            margin-left: 30%;
-            margin-top: -30vh;
-        }
-        .main .data h4{
-            color: #FF5B79;
-            font-weight: bolder;
-            margin-top: 5vh;
-        }
-        .main .data h1{
-            font-family: 'Poppins', sans-serif;
-            color: #ffffff;
-            font-size: 5em;
-        }
-        .main .data p{
-            color: #bebebe;
-        }
-        .main .book-now {
-            background: none;
-            border: 0px ;
-        }
-        .main .book-now:active {  
-            border: 0px;
-        }
-        .main .book-now:hover {  
-            border: 0px;
-            opacity: .9;
-        }
-        .main .ourServicesBtn{
-            margin-top: -10vh;
-        }
-        .header h2{
-            font-family: 'Poppins';
-            font-size: 4em;
-            margin-top: 20vh;
-            color: #ffffff;
-        }
-        .header span{
-            color: #FF5B79;
-            border-bottom: 5px solid #FF5B79;
-        }
-        .header p{
-            font-size: 2em;
-            color: #bebebe;
-        }
-        .services .service{
-            background: #FFFFFF;
-            -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
-            -moz-box-shadow:inset 0px 0px 0px 10px #f00;
-            color: #FF5B79;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-            border-radius: 10px;
-            font-family: 'Poppins';
-            box-sizing: border-box;
-            transition: .5s all;
-        }
-        .services .service:hover{
-            background: #000000;
-            transition: .5s all;
-            cursor: pointer;
-            box-shadow:  inset 5px 5px  #FF5B79, inset -5px -5px  #FF5B79;
-        }
-        .services .services-1{
-            margin-top: -20vh;
-            margin-bottom: 10vh;
-        }
-        .service img{
-            width: 150px;
-        }
-        .main2{
-            padding-top: 20vh;
-            padding-bottom:30vh ;
-            background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
-            box-shadow: -10px -10px 20px rgba(31, 26, 51, 0.43);
-            border-radius: 80px 80px 0px 0px;
-            margin-top: -20vh;
-        }
-        .testimonials{
-            /* margin-top: 20vh; */
-            padding-top: 20vh;
-            overflow-x: scroll; 
-        }
-        .testimonials::-webkit-scrollbar{
-            height: 0px;
-        }
-        .testimonials .testimonial img{
-            margin-top: -70px;
-            width: 140px;
-            border-radius: 50%;
-            border: 5px solid #ffffff;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-        }
-        .testimonials .testimonial{
-            border-radius: 5px;
-            background: #ffffff;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.65); 
-            transition:.5s all  ;
-            margin-bottom: 130px;
-        }
-        .testimonials .testimonial:hover{
-            color: #ffffff;
-            background: #000000;
-            transition:.5s all;
-            cursor: pointer;
-        }
-        .testimonials .testimonial b{
-            border-bottom: 3px solid #FF5B79;
-        }
-        @media only screen and (max-width: 760px) {
 
-            .navbarMobile{
-                display: block;
-                position: absolute;
-                color: #FF5B79;
-            }
-            .navbar{
-                display: none;
-            }
-            .main{
-                padding-top: 10vh;
-            }
-            .main .data h4{
-                font-size: 1em;
-            }
-            .main .data h1{
-                font-size: 3.5em;
-            }
-            .main .data p{
-                font-size: .8em;
-            }
-            .main .ourServicesBtn{
-                margin-top: 2vh;
-            }
-            .main .img1{
-            width: 70%;
-            }
-            .main .img2{
-                width: 50%;
-                margin-left: 40%;
-                margin-top: -20vh;
-            }
-            .main .img3{
-                margin-left: 10%;
-                margin-top: 0vh;
-            }
-            .header h2{
-                font-size: 2.8em;
-            }
-            .header p{
-                font-size: 1.2em;
-            }
-            .main2 .container{
-                margin-right: 0;
-                padding-right: 0;
-                margin-left: 0;
-                padding-left: 0;
-            }
-
-        }
-
-    </style>
   </head>
   <body>
     
@@ -406,11 +206,20 @@
                     <div class="col-md-4 col-11 text-center">
                         <div class="col-md-12 offset-md-0 col-12 testimonial p-2 pb-2 pl-0">
 
-                            <img src="./images/testimonials/img (1).jpg"  alt="">
+                            <img src="./images/testimonials/img (2).jpg"  alt="">
+
                             <p class="p-4">
                                 <b class="h3"> Saurabh Dhakne </b>
                                 <br> <br>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.
+                                
+                                <div class="col-12 h3 ">
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half font-weight-bold text-warning" aria-hidden="true"></i>
+                                </div>
                             </p>
 
                         </div>
@@ -418,11 +227,20 @@
                     <div class="col-md-4 col-11 text-center">
                         <div class="col-md-12 offset-md-0 col-12 testimonial p-2 pb-2 pl-0">
 
-                            <img src="./images/testimonials/img (2).jpg" alt="">
+                            <img src="./images/testimonials/prathamesh.jpg" alt="">
+
                             <p class="p-4">
                                 <b class="h3"> Prathamesh Kapse </b>
                                 <br> <br>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.
+                                Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                
+                                <div class="col-12 h3 ">
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                </div>
                             </p>
 
                         </div>
@@ -430,17 +248,68 @@
                     <div class="col-md-4 col-11 text-center">
                         <div class="col-md-12 offset-md-0 col-12 testimonial p-2 pb-2 pl-0">
 
-                            <img src="./images/testimonials/img (1).jpg" alt="">
+                            <img src="./images/testimonials/rohan.jpg" alt="">
+
                             <p class="p-4">
                                 <b class="h3"> Rohan Keshave </b>
                                 <br> <br>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.
+                                Amet consectetur adipisicing elit. Lorem ipsum dolor sit,   Vitae eos sapiente optio nisi dicta nulla iste fugiat quis ad at.  
+                                
+                                <div class="col-12 h3">
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star font-weight-bold text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half font-weight-bold text-warning" aria-hidden="true"></i>
+                                </div>
+
                             </p>
 
                         </div>
                     </div>
                 </div>
 
+                <div class="header text-center">
+                    <h2>
+                        Find <span>Us</span> 
+                    </h2>
+                    <p class="h3 mt-4 mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, nulla repellendus vel facere deleniti tempore dolores dolor unde libero!
+                    </p>
+
+                    <div class="">
+                        <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119981.3870500365!2d73.73344012389855!3d19.99094929619646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddd290b09914b3%3A0xcb07845d9d28215c!2sNashik%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1637127058992!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-md-4">
+                <h2 class=" pr-2 text-light col-md-5">About Us</h2>
+
+                <p class="text-justify mt-5">
+                    &nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maxime mollitia ullam.
+                    Excepturi corrupti consequuntur dicta temporibus possimus eos cupiditate, sit mollitia aperiam.
+                    Corrupti ad quos voluptatum repellendus nisi animi.
+                </p>
+            </div>
+            <div class="col-md-2 offset-md-1">
+                <h2 class="pr-2 text-light col-md-12">Quick Links</h2>
+
+                    <div class="item ml-4 mt-5"> Home </div>
+                    <div class="item ml-4 mt-3"> Services</div>
+                    <div class="item ml-4 mt-3"> Gallery</div>
+                    <div class="item ml-4 mt-3"> Contact us</div>
+                    <div class="item ml-4 mt-3"> About Us</div>
+
+            </div>
+            <div class="col-md-4 offset-md-1">
+                <h2 class="pr-2 text-light col-md-6 mb-4">Contact Us</h2>
+
+                <div class="item ml-3 mt-5"> Email : sbdhakne309@gmail.com </div>
+                <div class="item ml-3 mt-3"> Mobile : 1234567890 </div>
+                <div class="item ml-3 mt-3"> Address : Plot No. xyz, gandhi nagar, tilak road, Pune Maharashtra </div>
             </div>
         </div>
     </div>
