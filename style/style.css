@@ -45,13 +45,12 @@ body {
   width: 80%;
 }
 .main .img2 {
-  width: 50%;
-  margin-left: 50%;
-  margin-top: -30vh;
-}
-.main .img2 {
+  width: 80%;
   margin-left: 30%;
-  margin-top: -30vh;
+  margin-top: -50vh;
+}
+.main .img3 {
+  margin-top: -20vh;
 }
 
 .main .data h4 {
@@ -135,7 +134,7 @@ body {
 }
 .main2 {
   padding-top: 20vh;
-  padding-bottom: 0vh;
+  padding-bottom: 20vh;
   background: linear-gradient(
     136.16deg,
     rgba(46, 9, 22, 0.97) 12.91%,
@@ -176,7 +175,7 @@ body {
   border-bottom: 3px solid #ff5b79;
 }
 .footer {
-  margin-top: 10vh;
+  margin-top: -15vh;
   border-radius: 80px 80px 0px 0px;
   background: #000000;
   padding: 15vh 5% 0vh 5%;
@@ -221,16 +220,17 @@ body {
     margin-top: 2vh;
   }
   .main .img1 {
-    width: 70%;
+    width: 80%;
   }
   .main .img2 {
-    width: 50%;
-    margin-left: 40%;
-    margin-top: -20vh;
+    width: 90%;
+    margin-left: 20%;
+    margin-top: -25vh;
   }
   .main .img3 {
-    margin-left: 10%;
-    margin-top: 0vh;
+    margin-left: 5%;
+    width: 50%;
+    margin-top: -10vh;
   }
   .header h2 {
     font-size: 2.8em;
