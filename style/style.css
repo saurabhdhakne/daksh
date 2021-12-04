@@ -13,6 +13,9 @@ body {
   font-family: "Kanit";
   /* background: #141414; */
 }
+.bg-black {
+  background: #000000;
+}
 .sidenav {
   display: none;
 }
@@ -302,7 +305,7 @@ iframe {
     font-size: 1em;
   }
   .main .data h1 {
-    font-size: 3.5em;
+    font-size: 3em;
   }
   .main .data p {
     font-size: 0.8em;
