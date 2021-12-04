@@ -146,22 +146,49 @@
             <div class="row align-items-center">
                 <div class="col-md-6 data">
                     <h1>
-                        About Us
+                        Contact Us
                     </h1>
                     <p class="text-justify">
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        We offer fast and easy service to all kinds of business. With new, unique and exciting services made available for the business.
-                        from inside town transport to business expanding to all the locations, 
-                        We are comitted to providing your business with  the required transport services.
-                        Let's join hands and be partners in the business and grow together.
-                    
+                        
+                        <div class="item ml-3 mt-4"> 
+                            <div class="row" onclick="window.location='mailto:ddakshlogistics@gmail.com '">
+                                <div class="col-1">
+                                    <i class="fa fa-envelope font-weight-bold mr-3" aria-hidden="true"></i> 
+                                </div> 
+                                <div class="col-10">
+                                    ddakshlogistics@gmail.com 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item ml-3 mt-3"> 
+                            <div class="row" onclick="window.location='tel:8308884200'">
+                                <div class="col-1">
+                                    <i class="fa fa-phone font-weight-bold mr-3" aria-hidden="true"></i> 
+                                </div> 
+                                <div class="col-10">
+                                    +91 8308884200 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item ml-3 mt-3"> 
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa fa-address-book font-weight-bold mr-3" aria-hidden="true"></i> 
+                                </div>
+                                <div class="col-10">
+                                    Flat No. 3, Tirumala darshan apt. <br>  Rajiv Nagar, Near Suman Petrol Pump, <br> Nashik - 422 009 
+                                </div>
+                            </div> 
+                        </div>
                     </p>
-                        <button class="btn book-now-outline ml-1 mt-3" onclick='window.location="#ourServices"'> 
-                            OUR SERVICES
-                        </button>
+                    <button class="btn book-now-outline ml-1 mt-3" onclick='window.location="#contactus"'> 
+                        Enquire Now
+                    </button>
                 </div>
                 <div class="col-md-6">
-                    <img src="./images/illustration1.png" class="iimg" width="100%" alt="">
+                    <img src="./images/illustration2.png" class="iimg" width="100%" alt="">
                 </div>
             </div>
            
@@ -170,31 +197,26 @@
         
         <div class="col-md-1"></div>
         
-        <div class="container-fluid phrases p-0">
-            <div class="row align-items-center pb-5" style="background: #FCD1D1;">
-                <div class="col-md-6">
-                    <img src="./images/img3.gif" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h3 class="">
-                        100% Safe, <br> Fast Secure <br> and  <br> Trusted Deliveries. 
-                    </h3>
-                </div>
-            </div>
-            <div class="row flex-row-reverse align-items-center" style="background: black; padding: 15vh 5% 25vh 5%;">
-                <div class="offset-md-1"></div>
-                <div class="col-md-6">
-                    <img src="./images/img4.gif" alt="">
-                </div>
-                <div class="col-md-5">
-                    <h4 class="text-light">
-                        Transport all the things <br> 
-                        that you need easily, safely <br> 
-                        and responsibily with <br>
-                        Trustworthy business partner <br>
-                         Daksh Logistics.
-                    </h4>
-                </div>
+        <div class="container-fluid phrases p-0" id="contactus">
+            <div class="row align-items-center" style="background: black; padding: 15vh 5%;">
+                <form class="col-md-8 offset-md-2 text-light">
+                    <h1 class="text-center"> Get In Touch</h1>
+                    <div class="col-md-6 offset-md-3 pt-1 rounded bg-light mb-5"></div>
+                    <div class="form-group">
+                        <label for="fname">Full Name</label>
+                        <input type="fname" class="form-control bg- " id="fname" aria-describedby="fname" placeholder="Enter Full Name ">
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Email Address</label>
+                      <input type="email" class="form-control bg-" id="email" aria-describedby="email" placeholder="Enter Email Addrress">
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <input type="text" class="form-control bg- " id="message" placeholder="Enter You Message">
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-light btn-block mt-5">Submit</button>
+                </form>
             </div>
         </div>
       

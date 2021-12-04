@@ -10,9 +10,9 @@ $(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll >= 50) {
-      document.getElementById("navbarMobile").style = "margin-top:0px";
+      document.getElementById("navbarMobile").classList.add("blurry");
     } else {
-      document.getElementById("navbarMobile").style = "margin-top:-80px";
+      document.getElementById("navbarMobile").classList.remove("blurry");
     }
   });
 });
@@ -21,9 +21,9 @@ $(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll >= 50) {
-      document.getElementById("navbar").style = "margin-top:0px";
+      document.getElementById("navbar").classList.add("blurry");
     } else {
-      document.getElementById("navbar").style = "margin-top:-100px";
+      document.getElementById("navbar").classList.remove("blurry");
     }
   });
 });
