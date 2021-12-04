@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Kanit";
-  /* background: #1d1d27; */
+  /* background: #141414; */
 }
 .sidenav {
   display: none;
@@ -21,7 +21,7 @@ body {
 }
 .navbar {
   position: fixed;
-  color: #1d1d27;
+  color: #141414;
   z-index: 999;
   transition: 0.5s all;
   margin-top: 10px;
@@ -34,7 +34,7 @@ body {
 }
 .navbar a {
   text-decoration: none;
-  color: #1d1d27;
+  color: #141414;
 }
 .scroll-x {
   overflow-y: scroll;
@@ -44,19 +44,20 @@ body {
 }
 .btn-outline-dark {
   border-radius: 30px;
-  color: #1d1d27;
-  border: 1px solid #1d1d27;
+  color: #141414;
+  border: 1px solid #141414;
 }
 .btn-outline-dark:hover {
-  background: #1d1d27;
+  background: #141414;
 }
 .main {
   padding-top: 13vh;
   padding-bottom: 30vh;
+  background: #87cef7;
   background: linear-gradient(
     136.16deg,
-    rgba(255, 255, 255, 0.97) 12%,
-    rgba(179, 210, 255, 0.69) 88%
+    rgba(255, 255, 255, 0.97) 20%,
+    rgba(155, 209, 250, 0.69) 80%
   );
   /* box-shadow: 10px 10px 20px rgba(31, 26, 51, 0.13); */
   border-radius: 0 0 80px 80px;
@@ -77,43 +78,43 @@ body {
   margin-left: -15%;
 }
 .main .data h4 {
-  color: #1d1d27;
+  color: #141414;
   font-weight: bolder;
   margin-top: 5vh;
 }
 .main .data h1 {
   font-family: "Poppins", sans-serif;
-  color: #1d1d27;
+  color: #141414;
   font-size: 5em;
 }
 .main .data p {
-  color: #1d1d27;
+  color: #141414;
   font-size: 1em;
 }
 .main .book-now {
   border: 0px;
-  background: #1d1d27;
+  background: #141414;
   color: #ffffff;
   padding: 10px 30px;
-  border: 2px solid #1d1d27;
+  border: 2px solid #141414;
   border-radius: 25px 5px 25px 5px;
 }
 
 .main .book-now-outline {
   border: 0px;
   background: none;
-  color: #1d1d27;
+  color: #141414;
   padding: 10px 30px;
-  border: 2px solid #1d1d27;
+  border: 2px solid #141414;
   border-radius: 25px 5px 25px 5px;
 }
 
 .main .book-now-outline:hover {
   border: 0px;
   color: #ffffff;
-  background: #1d1d27;
+  background: #141414;
   padding: 10px 30px;
-  border: 2px solid #1d1d27;
+  border: 2px solid #141414;
   border-radius: 25px 5px 25px 5px;
 }
 
@@ -122,9 +123,9 @@ body {
 }
 .main .book-now:hover {
   background: none;
-  color: #1d1d27;
+  color: #141414;
   padding: 10px 30px;
-  border: 2px solid #1d1d27;
+  border: 2px solid #141414;
 }
 .main .ourServicesBtn {
   margin-top: -10vh;
@@ -142,12 +143,12 @@ body {
   width: 100%;
 }
 .phrases h3 {
-  color: 1d1d27;
+  color: #141414;
   font-size: 3em;
   font-family: "Poppins", "Elephant";
 }
 .phrases h4 {
-  color: #1d1d27;
+  color: #141414;
   font-size: 2em;
   text-align: right;
   font-family: "Poppins", "Elephant";
@@ -160,19 +161,19 @@ body {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.43);
 }
 .header span {
-  color: #1d1d27;
-  border-bottom: 5px solid #1d1d27;
+  color: #141414;
+  border-bottom: 5px solid #141414;
 }
 .header p {
   font-size: 2em;
-  color: #1d1d27;
+  color: #141414;
 }
 
 .services .service {
   background: #ffffff;
   -webkit-box-shadow: inset 0px 0px 0px 10px #f00;
   -moz-box-shadow: inset 0px 0px 0px 10px #f00;
-  color: #1d1d27;
+  color: #141414;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   font-family: "Poppins";
@@ -180,7 +181,7 @@ body {
   transition: 0.5s all;
 }
 .services .service:hover {
-  background: #1d1d27;
+  background: #141414;
   transition: 0.5s all;
   cursor: pointer;
   color: #ffffff;
@@ -198,7 +199,7 @@ body {
   padding-bottom: 20vh;
   background: linear-gradient(
     180deg,
-    rgba(179, 210, 255, 0.69) 12%,
+    rgba(155, 209, 250, 0.69) 12%,
     rgba(255, 255, 255, 0.97) 88%
   );
   /* box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.25); */
@@ -222,14 +223,14 @@ body {
 }
 .testimonials .testimonial {
   border-radius: 5px;
-  color: #1d1d27;
+  color: #141414;
   background: #ffffff;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.65);
   transition: 0.5s all;
 }
 .testimonials .testimonial:hover {
   color: #ffffff;
-  background: #1d1d27;
+  background: #141414;
   transition: 0.5s all;
   cursor: pointer;
 }
@@ -243,7 +244,7 @@ iframe {
 .footer {
   margin-top: -15vh;
   border-radius: 80px 80px 0px 0px;
-  background: #1d1d27;
+  background: #141414;
   padding: 15vh 5% 0vh 5%;
   /* box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.43); */
 }
