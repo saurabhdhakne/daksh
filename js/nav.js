@@ -1,5 +1,5 @@
 function onOpen() {
-  document.getElementById("sidenav").style.width = "60%";
+  document.getElementById("sidenav").style.width = "80%";
 }
 
 function onClose() {

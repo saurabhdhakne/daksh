@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./images/logo3.png">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://use.fontawesome.com/db006bf474.js"></script>
     <title>Daksh Logistics</title>
@@ -31,42 +32,49 @@
     <div class="sidenav h4" id="sidenav">
 
         <div class="col-12 h2 mb-5 text-right mr-4 mt-3">
-            <i class="fa fa-times font-weight-bold text-light" aria-hidden="true" onclick="onClose()"></i>
+            <i class="fa fa-times font-weight-bold" aria-hidden="true" onclick="onClose()"></i>
         </div>
 
         <a href="/">
             <div class="mt-5 ml-4 item"> 
-                <i class="fa fa-home font-weight-bold text-light" aria-hidden="true"></i>
+                <i class="fa fa-home font-weight-bold" aria-hidden="true"></i>
                 &nbsp;&nbsp;&nbsp;
-                Home
+                HOME
             </div>
         </a>
         <a href="services.html"> 
             <div class="mt-5 ml-4 item">
-                <i class="fa fa-truck font-weight-bold text-light" aria-hidden="true"></i>
+                <i class="fa fa-truck font-weight-bold" aria-hidden="true"></i>
                 &nbsp;&nbsp;&nbsp;
-                Services
+                SERVICES
             </div> 
         </a>
         <a href="gallery.html"> 
             <div class="mt-5 ml-4 item">
-                <i class="fa fa-photo font-weight-bold text-light" aria-hidden="true"></i>
+                <i class="fa fa-photo font-weight-bold" aria-hidden="true"></i>
                 &nbsp;&nbsp;
-                Gallery
-            </div> 
+                GALLERY
+            </div>
         </a>
         <a href="about.html">
             <div class="mt-5 ml-4 item">
-                <i class="fa fa-info font-weight-bold text-light" aria-hidden="true"></i>
+                <i class="fa fa-info font-weight-bold" aria-hidden="true"></i>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                About
+                ABOUT
             </div> 
         </a>
         <a href="contact.html"> 
             <div class="mt-5 ml-4 item">
-                <i class="fa fa-phone font-weight-bold text-light" aria-hidden="true"></i>
+                <i class="fa fa-phone font-weight-bold" aria-hidden="true"></i>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                Contact 
+                CONTACT 
+            </div>
+        </a>
+        <a href="contact.html#contactus"> 
+            <div class="mt-5 ml-4 item">
+                <i class="fa fa-address-book font-weight-bold" aria-hidden="true"></i>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                ENQUIRE NOW 
             </div>
         </a>
 
@@ -77,47 +85,49 @@
             
             <div class="d-flex align-items-center">
                 <div class="col-md-2">
-                    <img src="./images/logo3.png" height="50px" alt="">
+                    <a href="/">
+                        <img src="./images/logo3.png" height="50px" alt="">
+                    </a>
                 </div>
                 <div class="ml-auto mr-3">
                     <a href="/">
                         <span class="active">
-                            Home
+                            HOME
                         </span>
                     </a>
                 </div>
                 <div class="mr-3 ml-3">
                     <a href="services.html">
                         <span class="">
-                            Services
+                            SERVICES
                         </span>
                     </a>
                 </div>
                 <div class="mr-3 ml-3">
                     <a href="gallery.html">
                         <span class="">
-                            Gallery
+                            GALLERY
                         </span> 
                     </a>
                 </div>
                 <div class="mr-3 ml-3">
                     <a href="about.html">
                         <span class="">
-                            About
+                            ABOUT
                         </span>
                     </a>
                 </div>
                 <div class="mr-auto ml-2">
                     <a href="contact.html">
                         <span class="">
-                            Contact
+                            CONTACT
                         </span>
                     </a>
                 </div>
                 <div class="col-md-2 text-right">
-                   <button class="btn btn-outline-dark pr-5 pl-5">
-                        <i class="fa fa-phone font-weight-bold text-dark mr-2" aria-hidden="true"></i>
-                        Call Now
+                   <button class="btn btn-outline-dark pr-5 pl-5" onclick="window.location='contact.html#contactus'">
+                        <i class="fa fa-phone-square font-weight-bold text-dark mr-2" aria-hidden="true"></i>
+                        ENQUIRE NOW
                     </button>
                 </div>
             </div>
@@ -125,20 +135,22 @@
         </div>
     </div>
 
-    <div class="container navbarMobile" id="navbarMobile">
-        <div class="col-12 d-flex align-items-center p-1">
+    <div class="container navbarMobile p-0 pt-2" id="navbarMobile">
+        <div class="col-12 d-flex align-items-center">
 
-            <div class="col-2">
-                <span>
-                    <img src="./images/logo3.png" width="100%" alt="">
-                </span>
+            <div class="mr-auto">
+                <a href="/">
+                    <span>
+                        <img src="./images/logo3.png" width="40px" alt="">
+                    </span>
+                </a>
             </div>
 
-            <div class="col-8 text-center">
+            <div class="mr-auto ml-auto text-center">
                 <h5>Daksh Logistics</h5>
             </div>
 
-            <div class="col-2 col-3">
+            <div class="ml-auto">
                 <button class="btn menu " onclick="onOpen()">
                     <h2>
                         <i class="fa fa-bars font-weight-bold text-dark" aria-hidden="true"></i>
@@ -210,7 +222,7 @@
         <div class="container-fluid phrases p-0" id="contactus">
             <div class="row align-items-center" style="background: black; padding: 15vh 5%;">
                 <form class="col-md-8 offset-md-2 text-light">
-                    <h1 class="text-center"> Get In Touch</h1>
+                    <h1 class="text-center"> ENQUIRE NOW</h1>
                     <div class="col-md-6 offset-md-3 pt-1 rounded bg-light mb-5"></div>
                     <div class="form-group">
                         <label for="fname">Full Name</label>
@@ -233,46 +245,106 @@
 
     </div>
 
-  
- 
 
-    <div class="container-fluid">
-        <div class="row footer">
-            <div class="col-md-4 mb-5">
-                <h2 class=" pr-2 text-light col-md-5 col-7">About Us</h2>
-
-                <p class="text-justify mt-5">
-                    &nbsp;&nbsp;&nbsp;&nbsp; 
-                    We offer fast and easy service to all kind of businesses, With new, unique and exciting service
-                    made available for the businesses. From inside town transport to business expanding to all the locations,
-                    We are commited to providing your business with the required transport services. Let's join hands and 
-                    be partners in the business and grow together. 
-                </p>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <a href="https://goo.gl/maps/fNGK7GJn8XD85NgZ9" class="single-cta">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>  Nashik - 422 009 </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <a href="tel:8308884200" class="single-cta">
+                            <i class="fa fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <a href="mailto:ddakshlogistics@gmail.com" class="single-cta">
+                            <i class="fa fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>ddakshlogistics@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-2 offset-md-1 mb-5">
-                <h2 class="pr-2 text-light col-md-12 col-8">Quick Links</h2>
-
-                    <div class="item ml-4 mt-5"> Home </div>
-                    <div class="item ml-4 mt-3"> Services</div>
-                    <div class="item ml-4 mt-3"> Gallery</div>
-                    <div class="item ml-4 mt-3"> Contact us</div>
-                    <div class="item ml-4 mt-3"> About Us</div>
-
-            </div>
-            <div class="col-md-4 offset-md-1 mb-5">
-                <h2 class="pr-2 text-light col-md-6 mb-4 col-8">Contact Us</h2>
-
-                <div class="item ml-3 mt-5"> Email : ddakshlogistics@gmail.com </div>
-                <div class="item ml-3 mt-3"> Mobile : +91 8308884200 </div>
-                <div class="item ml-3 mt-3"> Address : Flat No. 3, Tirumala darshan apt. <br> Rajiv Nagar, Near Suman Petrol Pump, <br> Nashik - 422 009 </div>
-                
-            </div>
-            <div class="col-12 bg-light mt-5 mb-2 pt-1"></div>
-            <div class="col-12 text-center text-light mb-4 mt-3">
-                © 2021 Copyright : <a href="https://adyfi.in" class="text-light"> Adyfi.in </a> 
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <div class="footer-text">
+                            </div>
+                            <div class="footer-social-icon">
+                                <div class="footer-text col-md-11">
+                                    <p>We offer fast and easy service to all kind of businesses, With new, unique and exciting service made available for the businesses.</p>
+                                </div>
+                                <a href="#"><i class="fa fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fa fa-instagram google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="services.html">services</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="contact.html#contactus">Enquire Now</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Find Us</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p> Flat No. 3, Tirumala darshan apt. <br>
+                                    Rajiv Nagar, Near Suman Petrol Pump, <br>
+                                    Nashik - 422 009
+                                </p> 
+                            </div>
+                            <div class="subscribe-form">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="https:adyfi.in">Adyfi.in</a></p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
