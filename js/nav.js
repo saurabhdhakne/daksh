@@ -1,11 +1,3 @@
-function onOpen() {
-  document.getElementById("sidenav").style.width = "80%";
-}
-
-function onClose() {
-  document.getElementById("sidenav").style.width = "0%";
-}
-
 $(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
@@ -27,3 +19,21 @@ $(function () {
     }
   });
 });
+
+$(document).ready(function () {
+  $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function () {
+    $(this).toggleClass("open");
+  });
+});
+
+flag = false;
+
+function navchange() {
+  flag = !flag;
+  if (flag) {
+    document.getElementById("sidenav").style.width = "0%";
+  } else {
+    document.getElementById("sidenav").style.width = "80%";
+  }
+}
+navchange();

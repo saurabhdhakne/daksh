@@ -14,12 +14,8 @@
 
   </head>
   <body>
-
+    
     <div class="sidenav h4" id="sidenav">
-
-        <div class="col-12 h2 mb-5 text-right mr-4 mt-3">
-            <i class="fa fa-times font-weight-bold" aria-hidden="true" onclick="onClose()"></i>
-        </div>
 
         <a href="/">
             <div class="mt-5 ml-4 item"> 
@@ -136,16 +132,16 @@
                 <h5>Daksh Logistics</h5>
             </div>
 
-            <div class="ml-auto">
-                <button class="btn menu " onclick="onOpen()">
-                    <h2>
-                        <i class="fa fa-bars font-weight-bold text-dark" aria-hidden="true"></i>
-                    </h2> 
+            <div class="ml-auto pt-2">
+                <button id="nav-icon4" onclick="navchange()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </button>
-            </div>
-        
+            </div> 
         </div>
     </div>
+
 
     <div class="container-fluid main">
         
@@ -490,12 +486,12 @@
         </div>
     </footer>
 
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./js/nav.js"></script>
+    
   </body>
 </html>
