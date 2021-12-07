@@ -37,3 +37,9 @@ function navchange() {
   }
 }
 navchange();
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    document.getElementById("loader").style = "height:0px; margin-top:50vh;";
+  }, 3000);
+});
