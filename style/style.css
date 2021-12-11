@@ -205,7 +205,7 @@ body {
   transition: 0.5s all;
 }
 .services .service:hover img {
-  width: 0%;
+  width: 30%;
   transition: 0.5s all;
 }
 .services .services-1 {
