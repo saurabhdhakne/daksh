@@ -526,6 +526,9 @@ ul {
   overflow: hidden;
   transition: 0.5s all;
 }
+.modal {
+  z-index: 99999999;
+}
 @media only screen and (max-width: 760px) {
   .navbarMobile .btn {
     background: none;
