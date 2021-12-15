@@ -186,6 +186,9 @@ body {
 .services .service .btn {
   /* display: none; */
 }
+.services .col-md-4 {
+  padding: 5%;
+}
 .services .service p {
   height: 0vh;
   overflow: hidden;
